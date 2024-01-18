@@ -65,7 +65,7 @@
 .container1{
     margin: 0;
     width: 100%;
-    height: 200px;
+    height: 20dvh;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -91,7 +91,7 @@
 .container2{
     display: flex;
     width: 100%;
-    height: 80%;
+    height: 240dvh;
     flex-direction: column;
     flex-wrap: wrap;
 }
@@ -101,33 +101,133 @@
     height: 100%;
     border-bottom: 2px solid #B78DF2;
     display: flex;
-    justify-content: space-evenly;
     align-items: baseline;
 }
 
 .display1{
     border-right: 2px solid #B78DF2;
     display: flex;
-    justify-content: space-around;
-    position: relative;
+    flex-direction: column;
 }
 
 .entradas{
-    margin: 15px;
-    position: absolute;
+    width: 100%;
+    height: 20%;
     left: 30px;
+}
+
+.title-dish{
+    margin: 5%;
+}
+
+.container-b{
+    display: flex;
+    justify-content: baseline;
 }
 
 li{
     list-style: none;
 }
 ul{
-    margin: 5px;
+    margin: 10px;
 }
 
-.entradas{
+.comida{
+    margin-left: -20px;
+}
+
+.precios{
+    margin-right: 10px;
+}
+
+.precios ul{
+    margin: 19px;
+}
+
+.item-img-1{
     width: 100%;
-    height: 200px;
+    height: 20%;
+  
+    background-color: #b78df22b;
+}
+
+
+.item-img-1 img{
+    width: 90%;
+    height: 90%;
+    border-radius: 10%;
+    margin-left: 5%;
+    margin-top: 4%;
+}
+
+.platos{
+    width: 100%;
+    height: 23%;
+    left: 30px;
+    border-top: 2px solid #B78DF2;
+}
+
+.del-mar{
+    width: 100%;
+    height: 22%;
+    left: 30px;
+    border-top: 2px solid #B78DF2;
+}
+
+.display2{
+    display: flex;
+    flex-direction: column;
+}
+
+.bebidas{
+    width: 100%;
+    height: 42%;
+}
+
+.vinos{
+    width: 100%;
+    height: 16%;
+    background-color: #4c1b909a;
+}
+.vinos h2{
+    color: #f9e6d5;
+}
+.vinos ul{
+    color: #f9e6d5;
+}
+
+.item-img-2{
+    margin-bottom: 0px;
+    width: 100%;
+    height: fit-content;
+
+}
+.item-img-2 img{
+    width: 90%;
+    height: 90%;
+    border-radius: 20%;
+    margin-left: 5%;
+    margin-top: 4%;
+}
+
+.item-img-3{
+    margin-bottom: 0px;
+    width: 100%;
+    height: fit-content;
+    background-color: #b78df22b;
+    align-self: flex-end;
+}
+.item-img-3 img{
+    width: 90%;
+    height: 90%;
+    border-radius: 20%;
+    margin-left: 5%;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    filter: opacity(87%);
+}
+.postres{
+    margin-top: 5%;
 }
 
 .footer-sect{
